@@ -3,18 +3,18 @@ import "./styles.css";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
-    const activeLink = "activ-link"
-    const noactiveLink = "noactiv-link"
+    const activeLink = "active-link"
+    const noactiveLink = "noactive-link"
     return (
         <nav className="nav">
             <NavLink to="/" className={({isActive}) => isActive ? activeLink : noactiveLink}>
-                Дом
+                ДОМ
             </NavLink>
             <NavLink to="/about" className={({isActive}) => isActive ? activeLink : noactiveLink}>
-                О нас 
+                О НАС 
             </NavLink>
             <NavLink to="/project" className={({isActive}) => isActive ? activeLink : noactiveLink}>
-                Проекты
+                ПРОЕКТЫ
             </NavLink>
         </nav>
 

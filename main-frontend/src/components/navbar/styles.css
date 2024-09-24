@@ -1,4 +1,14 @@
-.activ-link{
-    color: red;
-    background-color: blue;
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.active-link{
+    color: var(--text-color-1);
+    padding: 4px;
+}
+
+.noactive-link {
+    color: var(--text-color-1);
+    opacity: 70%;
+    padding: 4px;
 }
